@@ -80,11 +80,11 @@ PR 페이지의 Files changed 탭에서 수정된 코드와 리뷰 내용을 확
 
 코드를 수정한 뒤 다시 아래 명령어를 실행하면 기존 PR에 자동으로 업데이트된다.
 
-- git add .
+git add .
 
-- git commit -m "수정 내용"
+git commit -m "수정 내용"
 
-- git push origin 브랜치명
+git push origin 브랜치명
 
 리뷰어가 승인을 하면 Merge pull request 버튼을 통해 메인 브랜치에 병합할 수 있다.
 
