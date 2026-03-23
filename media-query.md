@@ -1,6 +1,4 @@
-# Media Query
-
-# CSS 핵심 정리
+# 반응형 & 레이아웃
 
 ## 1. 반응형
 
@@ -21,21 +19,24 @@
 
 min-width는 화면 너비가 특정 크기 이상일 때 스타일을 적용한다.
 
-## Flex
+### 반응형 단위
+
+% : 부모 요소를 기준으로 크기 설정
+vw : 화면 너비(Viewport Width)의 비율
+vh : 화면 높이(Viewport Height)의 비율
+rem : 최상위(html) 글자 크기를 기준으로 설정
+
+## 3. Flex
 
 - display: flex;는 해당 요소를 Flex 컨테이너로 만든다.
 
-- justify-content
+- justify-content:주축 방향에서 요소들의 정렬 방법을 정한다.
+  보통 가로 방향 정렬에 많이 사용된다.
 
-justify-content는 주축 방향에서 요소들의 정렬 방법을 정한다.
-보통 가로 방향 정렬에 많이 사용된다.
+- align-items:교차축 방향에서 요소들의 정렬 방법을 정한다.
+  보통 세로 방향 정렬에 많이 사용된다.
 
-- align-items
-
-align-items는 교차축 방향에서 요소들의 정렬 방법을 정한다.
-보통 세로 방향 정렬에 많이 사용된다.
-
-## Grid
+## 4. Grid
 
 Grid는 요소들을 행과 열로 나누어 배치할 때 사용하는 레이아웃 방식이다.
 표처럼 여러 칸으로 정리해서 배치할 때 편리하다.
@@ -52,7 +53,7 @@ grid-template-columns는 열(column)의 개수와 크기를 정한다.
 
 grid-template-rows는 행(row)의 개수와 크기를 정한다.
 
-## Flex와 Grid의 차이
+## 5. Flex와 Grid의 차이
 
 Flex는 1차원 레이아웃으로, 한 번에 한 방향(가로 또는 세로)으로 정렬할 때 적합하다.
 반면 Grid는 2차원 레이아웃으로, 가로와 세로를 함께 나누어 배치할 때 적합하다.
